@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+.box-red {
+  background-color: red;
+  padding: 40px;
+  /* border: 2px solid green; */
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  outline: 2px solid blue;
+  outline-offset: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+}
+.box-red:hover {
+  outline-offset: 30px;
+}
+.box-blue {
+  background-color: blue;
+  padding: 40px;
+  border: 2px solid green;
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+}
+.box-brow {
+  background-color: brown;
+  padding: 40px;
+  border: 2px solid green;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+button:focus {
+  outline: 3px solid #00f;
+  outline-offset: 5px;
+}
+
+div {
+  outline: 2px;
+  border: 4px dashed red;
+}
